@@ -26,7 +26,7 @@ const App = () => {
   };
 
   let content = (
-    <p style={{ textAlign: 'center' }}>No goals found. Maybe add one?</p>
+    <p style={{ textAlign: 'center' }}>No goals found. Add More</p>
   );
 
   if (courseGoals.length > 0) {
@@ -47,7 +47,7 @@ const App = () => {
             items={courseGoals}
             onDeleteItem={deleteItemHandler}
           />
-        ) // <p style={{ textAlign: 'center' }}>No goals found. Maybe add one?</p>
+        ) // <p style={{ textAlign: 'center' }}>No goals found. Add more</p>
         } */}
       </section>
     </div>
